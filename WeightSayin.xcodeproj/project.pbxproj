@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1028B4B320D044960019D93F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1028B4B220D044960019D93F /* HomeViewController.swift */; };
+		1028B4B520D05CB10019D93F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1028B4B420D05CB10019D93F /* ProfileViewController.swift */; };
 		10307EE220CE9D5700293984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10307EE120CE9D5700293984 /* AppDelegate.swift */; };
 		10307EE420CE9D5700293984 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10307EE320CE9D5700293984 /* ViewController.swift */; };
 		10307EE720CE9D5700293984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10307EE520CE9D5700293984 /* Main.storyboard */; };
 		10307EEA20CE9D5700293984 /* WeightSayin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10307EE820CE9D5700293984 /* WeightSayin.xcdatamodeld */; };
 		10307EEC20CE9D5F00293984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10307EEB20CE9D5F00293984 /* Assets.xcassets */; };
 		10307EEF20CE9D5F00293984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10307EED20CE9D5F00293984 /* LaunchScreen.storyboard */; };
+		10307EFC20CE9E6900293984 /* Gradaient effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10307EFB20CE9E6900293984 /* Gradaient effect.swift */; };
+		10307EFE20CEA08600293984 /* DateWeightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10307EFD20CEA08600293984 /* DateWeightTableViewCell.swift */; };
+		10307F0020CEA0E200293984 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10307EFF20CEA0E200293984 /* Constants.swift */; };
+		10307F0220CEA24500293984 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10307F0120CEA24500293984 /* Settings.swift */; };
+		10307F0420CEA30800293984 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10307F0320CEA30800293984 /* Data.swift */; };
+		10307F0620CF057600293984 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10307F0520CF057600293984 /* PersistenceService.swift */; };
+		10307F0920CF167C00293984 /* Entry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10307F0720CF167C00293984 /* Entry+CoreDataClass.swift */; };
+		10307F0A20CF167C00293984 /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10307F0820CF167C00293984 /* Entry+CoreDataProperties.swift */; };
+		104E11AD20D18389000E9A39 /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E11AB20D18389000E9A39 /* Profile+CoreDataClass.swift */; };
+		104E11AE20D18389000E9A39 /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104E11AC20D18389000E9A39 /* Profile+CoreDataProperties.swift */; };
+		107E589420E2CB5700696023 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107E589320E2CB5700696023 /* AboutViewController.swift */; };
+		10C291A120D80B5400BF66AD /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C291A020D80B5400BF66AD /* CircularProgressView.swift */; };
+		10C291A320D9357500BF66AD /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C291A220D9357500BF66AD /* SettingsTableViewCell.swift */; };
+		10C291A520D9376900BF66AD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C291A420D9376900BF66AD /* SettingsViewController.swift */; };
+		10C291A720D9954900BF66AD /* SettingsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C291A620D9954900BF66AD /* SettingsCollectionViewCell.swift */; };
+		10C291A920D996FC00BF66AD /* SocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C291A820D996FC00BF66AD /* SocialMedia.swift */; };
+		10C291AC20D99E5600BF66AD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C291AB20D99E5600BF66AD /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1028B4B220D044960019D93F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1028B4B420D05CB10019D93F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		10307EDE20CE9D5700293984 /* WeightSayin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightSayin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10307EE120CE9D5700293984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10307EE320CE9D5700293984 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +45,23 @@
 		10307EEB20CE9D5F00293984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10307EEE20CE9D5F00293984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10307EF020CE9D5F00293984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10307EFB20CE9E6900293984 /* Gradaient effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gradaient effect.swift"; sourceTree = "<group>"; };
+		10307EFD20CEA08600293984 /* DateWeightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateWeightTableViewCell.swift; sourceTree = "<group>"; };
+		10307EFF20CEA0E200293984 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		10307F0120CEA24500293984 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		10307F0320CEA30800293984 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		10307F0520CF057600293984 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		10307F0720CF167C00293984 /* Entry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		10307F0820CF167C00293984 /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		104E11AB20D18389000E9A39 /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		104E11AC20D18389000E9A39 /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		107E589320E2CB5700696023 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		10C291A020D80B5400BF66AD /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		10C291A220D9357500BF66AD /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		10C291A420D9376900BF66AD /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		10C291A620D9954900BF66AD /* SettingsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCollectionViewCell.swift; sourceTree = "<group>"; };
+		10C291A820D996FC00BF66AD /* SocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia.swift; sourceTree = "<group>"; };
+		10C291AB20D99E5600BF66AD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C291AC20D99E5600BF66AD /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +81,7 @@
 			children = (
 				10307EE020CE9D5700293984 /* WeightSayin */,
 				10307EDF20CE9D5700293984 /* Products */,
+				10C291AA20D99E5600BF66AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +96,16 @@
 		10307EE020CE9D5700293984 /* WeightSayin */ = {
 			isa = PBXGroup;
 			children = (
+				104E11AB20D18389000E9A39 /* Profile+CoreDataClass.swift */,
+				104E11AC20D18389000E9A39 /* Profile+CoreDataProperties.swift */,
+				10307F0720CF167C00293984 /* Entry+CoreDataClass.swift */,
+				10307F0820CF167C00293984 /* Entry+CoreDataProperties.swift */,
+				10307EF620CE9DCB00293984 /* Extensions */,
+				10307EF720CE9DDF00293984 /* Data Service */,
+				10307EF820CE9DFE00293984 /* Model */,
+				10307EFA20CE9E1500293984 /* Controllers */,
+				10307EF920CE9E0400293984 /* Views */,
 				10307EE120CE9D5700293984 /* AppDelegate.swift */,
-				10307EE320CE9D5700293984 /* ViewController.swift */,
 				10307EE520CE9D5700293984 /* Main.storyboard */,
 				10307EEB20CE9D5F00293984 /* Assets.xcassets */,
 				10307EED20CE9D5F00293984 /* LaunchScreen.storyboard */,
@@ -65,6 +113,64 @@
 				10307EE820CE9D5700293984 /* WeightSayin.xcdatamodeld */,
 			);
 			path = WeightSayin;
+			sourceTree = "<group>";
+		};
+		10307EF620CE9DCB00293984 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				10307EFB20CE9E6900293984 /* Gradaient effect.swift */,
+				10C291A020D80B5400BF66AD /* CircularProgressView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		10307EF720CE9DDF00293984 /* Data Service */ = {
+			isa = PBXGroup;
+			children = (
+				10307EFF20CEA0E200293984 /* Constants.swift */,
+				10307F0320CEA30800293984 /* Data.swift */,
+				10307F0520CF057600293984 /* PersistenceService.swift */,
+			);
+			path = "Data Service";
+			sourceTree = "<group>";
+		};
+		10307EF820CE9DFE00293984 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				10307F0120CEA24500293984 /* Settings.swift */,
+				10C291A820D996FC00BF66AD /* SocialMedia.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		10307EF920CE9E0400293984 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				10307EFD20CEA08600293984 /* DateWeightTableViewCell.swift */,
+				10C291A220D9357500BF66AD /* SettingsTableViewCell.swift */,
+				10C291A620D9954900BF66AD /* SettingsCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		10307EFA20CE9E1500293984 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1028B4B220D044960019D93F /* HomeViewController.swift */,
+				10307EE320CE9D5700293984 /* ViewController.swift */,
+				1028B4B420D05CB10019D93F /* ProfileViewController.swift */,
+				10C291A420D9376900BF66AD /* SettingsViewController.swift */,
+				107E589320E2CB5700696023 /* AboutViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		10C291AA20D99E5600BF66AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10C291AB20D99E5600BF66AD /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +205,11 @@
 				TargetAttributes = {
 					10307EDD20CE9D5700293984 = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -138,9 +249,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C291A720D9954900BF66AD /* SettingsCollectionViewCell.swift in Sources */,
 				10307EE420CE9D5700293984 /* ViewController.swift in Sources */,
+				107E589420E2CB5700696023 /* AboutViewController.swift in Sources */,
+				10307EFC20CE9E6900293984 /* Gradaient effect.swift in Sources */,
 				10307EE220CE9D5700293984 /* AppDelegate.swift in Sources */,
 				10307EEA20CE9D5700293984 /* WeightSayin.xcdatamodeld in Sources */,
+				10307F0A20CF167C00293984 /* Entry+CoreDataProperties.swift in Sources */,
+				1028B4B320D044960019D93F /* HomeViewController.swift in Sources */,
+				10307EFE20CEA08600293984 /* DateWeightTableViewCell.swift in Sources */,
+				104E11AE20D18389000E9A39 /* Profile+CoreDataProperties.swift in Sources */,
+				10307F0020CEA0E200293984 /* Constants.swift in Sources */,
+				10307F0220CEA24500293984 /* Settings.swift in Sources */,
+				10C291A120D80B5400BF66AD /* CircularProgressView.swift in Sources */,
+				10C291A320D9357500BF66AD /* SettingsTableViewCell.swift in Sources */,
+				104E11AD20D18389000E9A39 /* Profile+CoreDataClass.swift in Sources */,
+				10307F0620CF057600293984 /* PersistenceService.swift in Sources */,
+				1028B4B520D05CB10019D93F /* ProfileViewController.swift in Sources */,
+				10307F0920CF167C00293984 /* Entry+CoreDataClass.swift in Sources */,
+				10307F0420CEA30800293984 /* Data.swift in Sources */,
+				10C291A520D9376900BF66AD /* SettingsViewController.swift in Sources */,
+				10C291A920D996FC00BF66AD /* SocialMedia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
